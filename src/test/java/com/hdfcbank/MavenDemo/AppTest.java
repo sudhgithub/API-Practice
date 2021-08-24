@@ -18,6 +18,14 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        super( testName1 ); 
+        super( testName2 );
+        super( testName3 );
+        
+        super( testName4 );
+        super( testName5 );
+        super( testName6 );
+        super( testName 7);
     }
 
     /**
@@ -35,4 +43,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+	private void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 }
