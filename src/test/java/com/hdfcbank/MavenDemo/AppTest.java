@@ -18,14 +18,8 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
-        super( testName1 ); 
-        super( testName2 );
-        super( testName3 );
+       
         
-        super( testName4 );
-        super( testName5 );
-        super( testName6 );
-        super( testName 7);
     }
 
     /**
@@ -42,6 +36,8 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+        
+        System.out.println("develop branch");
     }
 
 	private void assertTrue(boolean b) {
